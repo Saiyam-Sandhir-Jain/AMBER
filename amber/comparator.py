@@ -394,6 +394,5 @@ class AMBERComparator:
         report.append(f"\n✓ Best performing method: {best_method.replace('_', ' ').title()}")
         report.append(f"✓ Achieved CSS: {best_score:.4f}")
         report.append(f"✓ Successfully demonstrates context-aware word disambiguation")
-        report.append(f"✓ Significant improvement over static Word2Vec embeddings")
         
         return "\n".join(report)

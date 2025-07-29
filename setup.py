@@ -38,10 +38,10 @@ setup(
     version=get_version(),
     
     # Author and contact information
-    author="Saiyam Jain, Swaroop Bhowmik, Kushagra Srivastava, Hitesh Kaushik",
-    author_email="swaroopbhowmik7@gmail.com",
-    maintainer="Saiyam Jain, Swaroop Bhowmik",
-    maintainer_email="swaroopbhowmik7@gmail.com",
+    author="Saiyam Jain",
+    author_email="saiyam.sandhir.jain@gmail.com",
+    maintainer="Saiyam Jain",
+    maintainer_email="saiyam.sandhir.jain@gmail.com",
     
     # Package description
     description="Attention-based Multi-head Bidirectional Enhanced Representations for contextual word embeddings",

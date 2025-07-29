@@ -16,8 +16,8 @@ from .comparator import AMBERComparator
 from .utils import load_default_word2vec, preprocess_corpus
 
 __version__ = "0.1.0"
-__author__ = "Saiyam Jain, Swaroop Bhowmik, Kushagra Srivastava, Hitesh Kaushik"
-__email__ = "swaroopbhowmik7@gmail.com"
+__author__ = "Saiyam Jain"
+__email__ = "saiyam.sandhir.jain@gmail.com"
 
 __all__ = [
     "AMBERModel",

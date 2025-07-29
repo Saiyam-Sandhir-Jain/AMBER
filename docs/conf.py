@@ -13,8 +13,8 @@ sys.path.insert(0, os.path.abspath('..'))
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'AMBER'
-copyright = '2024, Saiyam Jain, Swaroop Bhowmik, Kushagra Srivastava, Hitesh Kaushik'
-author = 'Saiyam Jain, Swaroop Bhowmik, Kushagra Srivastava, Hitesh Kaushik'
+copyright = '2025, Saiyam Jain'
+author = 'Saiyam Jain'
 release = '0.1.0'
 version = '0.1.0'
 
