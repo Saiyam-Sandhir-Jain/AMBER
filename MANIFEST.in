@@ -1,0 +1,48 @@
+# Include documentation files
+include README.md
+include LICENSE
+include CHANGELOG.md
+include requirements.txt
+
+# Include example files
+recursive-include examples *.py
+recursive-include examples *.md
+
+# Include test files
+recursive-include tests *.py
+
+# Include documentation source
+recursive-include docs *.rst
+recursive-include docs *.py
+recursive-include docs Makefile
+recursive-include docs make.bat
+
+# Include static files if any
+recursive-include amber *.json
+recursive-include amber *.yaml
+recursive-include amber *.yml
+
+# Exclude build artifacts
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude *.pyd
+global-exclude __pycache__
+global-exclude .git*
+global-exclude .coverage
+global-exclude .pytest_cache
+global-exclude *.egg-info
+
+# Exclude OS-specific files
+global-exclude .DS_Store
+global-exclude Thumbs.db
+
+# Exclude IDE files
+global-exclude .vscode
+global-exclude .idea
+global-exclude *.swp
+global-exclude *.swo
+
+# Exclude temporary files
+global-exclude *~
+global-exclude .#*
+global-exclude #*#
